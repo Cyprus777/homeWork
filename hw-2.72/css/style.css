@@ -47,11 +47,11 @@ body {
 /* ================== Выполнение дз ниже =================== */
 
 .box__scale {
-    transition: 1s;
+    transition: 1.5s;
 }
 
 span {
-    transition: .5s 1s;
+    transition: .5s 1.5s;
 }
 
 
