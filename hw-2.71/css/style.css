@@ -20,7 +20,7 @@ h1::before {
     background: #f77777;
     border: 5px solid #fff;
     border-radius: 50%;
-    transform: translatY(-50%);
+    transform: translateY(-50%);
 
     position: absolute;
     left: 5%;
@@ -34,7 +34,7 @@ h1::after {
     background: #2995ed;
     border: 5px solid #fff;
     border-radius: 50%;
-    transform: translatY(-50%);
+    transform: translateY(-50%);
 
     position: absolute;
     right: 5%;
