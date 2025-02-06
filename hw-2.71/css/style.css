@@ -7,10 +7,9 @@ body {
 }
 
 h1 {
-    width: 700px;
+      width: 700px;
     margin: 0 auto;
     position: relative;
-
 }
 
 h1::before {
@@ -20,11 +19,11 @@ h1::before {
     background: #f77777;
     border: 5px solid #fff;
     border-radius: 50%;
-    transform: translateY(-50%);
 
     position: absolute;
-    left: 5%;
     top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
 }
 
 h1::after {
@@ -34,9 +33,9 @@ h1::after {
     background: #2995ed;
     border: 5px solid #fff;
     border-radius: 50%;
-    transform: translateY(-50%);
 
     position: absolute;
-    right: 5%;
     top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
 }
