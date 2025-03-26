@@ -52,11 +52,22 @@ html {
     padding: 140px 0;
 }
 
+.main__program {
+    padding-bottom: 145px;
+}
+
 .container {
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 20px;
     height: 100%;
+}
+
+.title {
+    font-family: "Gabriola";
+    font-size: 74px;
+    line-height: .82;
+    color: var(--accent-color-title);
 }
 
 .button {
@@ -360,9 +371,6 @@ html {
 }
 
 .header__hero-title {
-    font-family: "Gabriola";
-    font-size: 74px;
-    line-height: .82;
     margin-bottom: 30px;
 }
 
@@ -510,14 +518,7 @@ html {
     margin-bottom: 30px;
 }
 
-.about__title {
-    /* H1 */
-    color: var(--accent-color-title);
-    font-family: Gabriola;
-    font-size: 74px;
-    font-weight: 400;
-    line-height: .82;
-}
+.about__title {}
 
 .about__title-text {}
 
@@ -556,9 +557,191 @@ html {
     width: 21.5px;
 }
 
-
 .about__grid-text {}
 
+/* ===================================MAIN================================================= */
+/* ===================================MAIN SECTION PROGRAM=================================== */
+
+.program {}
+
+.program__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 60px;
+}
+
+.program__heading {}
+
+.program__title {
+    margin-bottom: 20px;
+}
+
+.program__text {}
+
+
+.tab__controls {
+    display: flex;
+    gap: 26px;
+    flex-basis: 624px;
+    flex-shrink: 1;
+}
+
+.tab__controls-item {
+    flex-basis: 133px;
+    flex-grow: 1;
+}
+
+.tab__controls-link {
+    display: block;
+    border-radius: 100px;
+    padding: 14px;
+    box-shadow: 0px 4px 20px 0px #cec3b94d;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.tab__controls-link:hover {
+    background: #ffe0cb;
+    ;
+}
+
+.tab__controls-link--active {
+    background: #ffe0cb;
+    box-shadow: 0px 4px 20px 0px #cec3b900;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content--show {
+    display: block;
+}
+
+/* ---------------------------ACCORDION-------------------------------- */
+.accordion-list {}
+
+.accordion-list__item {
+    border: 1px solid var(--accent-color);
+    border-radius: var(--border-radius);
+    margin-bottom: 30px;
+}
+
+.accordion-list__item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-list__item--opened {}
+
+.accordion-list__control {
+    padding: 41px 30px;
+    width: 100%;
+    background: transparent;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: "Gabriola";
+    font-size: 42px;
+    line-height: .9;
+    color: var(--accent-color-title);
+}
+
+.accordion-list__control-title {}
+
+.accordion-list__control-icon {
+    width: 36px;
+    height: 36px;
+    border: 1.5px solid var(--accent-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    transition: var(--transition);
+}
+
+.accordion-list__control-icon svg {
+    margin-left: 2px;
+}
+
+.accordion-list__control-icon path {
+    transition: var(--transition);
+}
+
+.accordion-list__control:hover .accordion-list__control-icon {
+    transform: rotate(90deg);
+    background: var(--accent-color);
+}
+
+.accordion-list__control:hover .accordion-list__control-icon path {
+    fill: var(--general-bg);
+}
+
+.accordion-list__item--opened .accordion-list__control-icon {
+    transform: rotate(90deg);
+    background: var(--accent-color);
+}
+
+.accordion-list__item--opened .accordion-list__control-icon path {
+    fill: var(--general-bg);
+}
+
+.accordion-list__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.accordion-list__item--opened .accordion-list__content {}
+
+.accordion-content {
+    padding: 0 30px 40px;
+    display: flex;
+    gap: 80px;
+}
+
+.accordion-content__col {}
+
+.accordion-content__col:first-child {
+    max-width: 507px;
+    width: 100%;
+}
+
+.accordion-content__title {
+    text-transform: uppercase;
+    line-height: 1.6;
+    color: #CEAAD0;
+    margin-bottom: 20px;
+}
+
+.accordion-content__list {}
+
+.accordion-content__item {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.accordion-content__item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-content__icon {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #CEAAD0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-content__text {
+    max-width: 274px;
+}
 
 /* ==========================================FOOTER========================================= */
 .footer {
@@ -865,7 +1048,7 @@ html {
     }
 
     /* ============================HEADER============================== */
-    .header__hero-title {
+    .title {
         font-size: 12vw;
     }
 
@@ -881,10 +1064,6 @@ html {
         max-width: none;
         border-radius: 0;
         padding: 10px 15px;
-    }
-
-    .about__title {
-        font-size: 12vw;
     }
 
     .about__text {
