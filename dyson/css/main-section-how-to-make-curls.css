@@ -69,8 +69,8 @@
 }
 
 
-.howToMakeCurls__show-img-controls:is(:hover, :active),
-.howToMakeCurls__show-img-controls:is(:hover, :active) svg:last-child path {
+.howToMakeCurls__show-img-controls:is(:active),
+.howToMakeCurls__show-img-controls:is(:active) svg:last-child path {
     transition: all .2s;
     border-color: #C5358C;
     fill: #C5358C;
