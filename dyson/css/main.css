@@ -54,9 +54,16 @@ main {
     border-radius: 3px;
 }
 
-.more-detailed:is(:hover, :active) {
+.more-detailed:is(:active) {
     background: #C5358C;
     transition: all .2s;
+}
+
+@media(any-hover: hover) {
+    .more-detailed:is(:hover) {
+        background: #C5358C;
+        transition: all .2s;
+    }
 }
 
 .logo {
