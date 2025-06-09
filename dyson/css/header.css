@@ -61,12 +61,18 @@
     transition: all .5s;
 }
 
-.header__burger:hover.header__burger div,
-.header__burger:hover.header__burger div::before,
-.header__burger:hover.header__burger div::after {
-    background: #C5358C;
-    transition: all .2s;
+
+@media(any-hover: hover), (any-active: active) {
+
+    .header__burger:is(:hover, :active).header__burger div,
+    .header__burger:is(:hover, :active).header__burger div::before,
+    .header__burger:is(:hover, :active).header__burger div::after {
+        background: #C5358C;
+        transition: all .2s;
+    }
+
 }
+
 
 .logo--margin {
     margin-right: 32px;
@@ -138,9 +144,12 @@
     transition: all .5s;
 }
 
-.header__action .accordion__tab-control--open+.accordion__content .accordion__content-item:is(:hover, :active) {
-    background: #C5358C;
-    transition: all .2s;
+
+@media(any-hover: hover), (any-active: active) {
+    .header__action .accordion__tab-control--open+.accordion__content .accordion__content-item:is(:hover, :active) {
+        background: #C5358C;
+        transition: all .2s;
+    }
 }
 
 .header__action .accordion__content-item {
@@ -186,9 +195,12 @@
     transition: all .5s;
 }
 
-.header__action-go-to-the-shopping-cart:is(:hover, :active) path {
-    stroke: #C5358C;
-    transition: all .2s;
+
+@media(any-hover: hover), (any-active: active) {
+    .header__action-go-to-the-shopping-cart:is(:hover, :active) path {
+        stroke: #C5358C;
+        transition: all .2s;
+    }
 }
 
 /* ====================================Медиазапросы============================================== */
