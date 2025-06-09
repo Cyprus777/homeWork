@@ -54,7 +54,7 @@
 .howToMakeCurls__show-img-controls,
 .howToMakeCurls__show-img-controls svg:first-child path,
 .howToMakeCurls__show-img-controls svg:last-child path {
-    transition: all .5s ease-in;
+    transition: all .3s ease-in;
 }
 
 
@@ -72,7 +72,7 @@
     .howToMakeCurls__show-img-controls:hover,
     .howToMakeCurls__show-img-controls:hover svg:first-child path,
     .howToMakeCurls__show-img-controls:hover svg:last-child path {
-        transition: all .2s;
+        transition: all .1s;
         border-color: #C5358C;
         fill: #C5358C;
     }
