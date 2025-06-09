@@ -54,7 +54,7 @@
 .howToMakeCurls__show-img-controls,
 .howToMakeCurls__show-img-controls svg:first-child path,
 .howToMakeCurls__show-img-controls svg:last-child path {
-    transition: all .7s ease-in;
+    transition: all .6s ease-in;
 }
 
 
