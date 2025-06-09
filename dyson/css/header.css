@@ -62,11 +62,11 @@
 }
 
 
-@media(any-hover: hover), (any-active: active) {
+@media(any-hover: hover) {
 
-    .header__burger:is(:hover, :active).header__burger div,
-    .header__burger:is(:hover, :active).header__burger div::before,
-    .header__burger:is(:hover, :active).header__burger div::after {
+    .header__burger:is(:active).header__burger div,
+    .header__burger:is(:active).header__burger div::before,
+    .header__burger:is(:active).header__burger div::after {
         background: #C5358C;
         transition: all .2s;
     }
