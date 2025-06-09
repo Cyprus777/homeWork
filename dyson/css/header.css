@@ -153,12 +153,19 @@
 }
 
 
-@media(any-hover: hover), (any-active: active) {
-    .header__action .accordion__tab-control--open+.accordion__content .accordion__content-item:is(:hover, :active) {
+@media(any-hover: hover) {
+    .header__action .accordion__tab-control--open+.accordion__content .accordion__content-item:is(:hover) {
         background: #C5358C;
         transition: all .2s;
     }
 }
+
+
+.header__action .accordion__tab-control--open+.accordion__content .accordion__content-item:is(:active) {
+    background: #C5358C;
+    transition: all .2s;
+}
+
 
 .header__action .accordion__content-item {
     display: flex;
@@ -204,11 +211,17 @@
 }
 
 
-@media(any-hover: hover), (any-active: active) {
-    .header__action-go-to-the-shopping-cart:is(:hover, :active) path {
+@media(any-hover: hover) {
+    .header__action-go-to-the-shopping-cart:is(:hover) path {
         stroke: #C5358C;
         transition: all .2s;
     }
+}
+
+
+.header__action-go-to-the-shopping-cart:is(:active) path {
+    stroke: #C5358C;
+    transition: all .2s;
 }
 
 /* ====================================Медиазапросы============================================== */
