@@ -64,13 +64,21 @@
 
 @media(any-hover: hover) {
 
-    .header__burger:is(:active).header__burger div,
-    .header__burger:is(:active).header__burger div::before,
-    .header__burger:is(:active).header__burger div::after {
+    .header__burger:hover.header__burger div,
+    .header__burger:hover.header__burger div::before,
+    .header__burger:hover.header__burger div::after {
         background: #C5358C;
         transition: all .2s;
     }
 
+}
+
+
+.header__burger:active.header__burger div,
+.header__burger:active.header__burger div::before,
+.header__burger:active.header__burger div::after {
+    background: #C5358C;
+    transition: all .2s;
 }
 
 
