@@ -1,0 +1,230 @@
+.footer {
+    background: #111111;
+    color: #ffffff;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+    padding: 50px 0 60px;
+}
+
+.footer__logo {
+    margin-bottom: 25px;
+    width: 183px;
+}
+
+.footer__col-list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 30px;
+}
+
+.footer__col-item:last-child {
+    justify-self: center;
+}
+
+.footer__col-title {
+    font-family: "NAMU", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.208;
+    margin-bottom: 10px;
+}
+
+.footer__col-link:not(:last-child) {
+    margin-bottom: 6px;
+}
+
+.footer__tel {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer__col-list-socials {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__socials {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.footer__socials img {
+    width: 100%;
+    height: 100%;
+}
+
+.all-rights-reserved {
+    text-align: right;
+    margin-right: 141px;
+}
+
+/* ====================================Медиазапросы============================================== */
+@media (max-width:1568px) {
+    .footer {
+        font-size: 1.1480vw;
+        font-weight: 300;
+        line-height: 1.4;
+        padding: 3.1888vw 0 3.8265vw;
+    }
+
+    .footer__logo {
+        margin-bottom: 1.5944vw;
+        width: 11.6709vw;
+    }
+
+    .footer__col-list {
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 1.9133vw;
+        gap: 1.2755vw;
+    }
+
+    .footer__col-title {
+        font-size: 1.5306vw;
+        font-weight: 900;
+        line-height: 1.208;
+        margin-bottom: 0.6378vw;
+    }
+
+    .footer__col-link:not(:last-child) {
+        margin-bottom: 0.3827vw;
+    }
+
+    .footer__tel {
+        font-size: 1.5306vw;
+        font-weight: 700;
+        line-height: 1.5;
+        margin-bottom: 1.9133vw;
+    }
+
+    .footer__col-list-socials {
+        gap: 1.2755vw;
+    }
+
+    .footer__socials {
+        width: 2.5510vw;
+        height: 2.5510vw;
+    }
+
+    .all-rights-reserved {
+        margin-right: 8.9923vw;
+    }
+}
+
+@media (max-width: 760px) {
+    .footer {
+        font-size: 1.3158vw;
+        font-weight: 300;
+        line-height: 1.4;
+        padding: 2.6316vw 0 3.9474vw;
+    }
+
+    .logo.footer__logo {
+        margin-bottom: 1.3158vw;
+        width: 9.6053vw;
+        height: 4.0789vw;
+    }
+
+    .footer__col-list {
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 1.7105vw;
+        gap: 2.6316vw;
+    }
+
+    .footer__col-title {
+        font-size: 1.8421vw;
+        font-weight: 900;
+        line-height: 1.214;
+        margin-bottom: 0.7895vw;
+    }
+
+    .footer__col-link:not(:last-child) {
+        margin-bottom: 0.2632vw;
+    }
+
+    .footer__socials {
+        width: 2.7632vw;
+        height: 2.7632vw;
+    }
+
+    .footer__tel {
+        font-size: 1.8421vw;
+        font-weight: 700;
+        line-height: 1.5;
+        margin-bottom: 1.3158vw;
+    }
+
+    .footer__col-list-socials {
+        gap: 1.3158vw;
+    }
+
+    .all-rights-reserved {
+        margin-right: 1.5789vw;
+    }
+}
+
+@media (max-width: 410px) {
+
+    .footer {
+        font-size: 2.4390vw;
+        font-weight: 300;
+        line-height: 1.4;
+        padding: 3.9024vw 0 5.8537vw;
+    }
+
+    .logo.footer__logo {
+        margin-bottom: 1.4634vw;
+        width: 26.8293vw;
+        height: 11.2195vw;
+    }
+
+    .footer__col-list {
+        grid-template-columns: 40vw 1fr;
+        margin-bottom: 4.8780vw;
+        gap: 3.9024vw;
+    }
+
+    .footer__col-item:last-child {
+        justify-self: left;
+    }
+
+    .footer__col-title {
+        font-size: 2.9268vw;
+        font-weight: 900;
+        line-height: 1.167;
+        margin-bottom: 0.9756vw;
+    }
+
+    .footer__col-link:not(:last-child) {
+        margin-bottom: 0.2439vw;
+    }
+
+    .footer__socials {
+        width: 4.3902vw;
+        height: 4.3902vw;
+    }
+
+    .footer__tel {
+        font-size: 2.9268vw;
+        font-weight: 700;
+        line-height: 1.4;
+        margin-bottom: 2.4390vw;
+    }
+
+    .footer__col-list-socials {
+        gap: 1.9512vw;
+    }
+
+    .all-rights-reserved {
+        margin-right: 2.9268vw;
+        text-align: left;
+        line-height: 1.3;
+    }
+}

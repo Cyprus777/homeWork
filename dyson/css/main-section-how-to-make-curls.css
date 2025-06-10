@@ -1,0 +1,267 @@
+.howToMakeCurls {
+    background: #DDDDDD;
+    padding-top: 122px;
+}
+
+.howToMakeCurls__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 57px;
+}
+
+.howToMakeCurls__show {
+    position: relative;
+}
+
+.howToMakeCurls__show-img-women {
+    width: 632px;
+    height: 676px;
+}
+
+.howToMakeCurls__show-img-women img {
+    width: 100%;
+    height: 100%;
+}
+
+.howToMakeCurls__show-img-controls {
+    position: absolute;
+    top: 220px;
+    right: 3px;
+    width: 84px;
+    height: 84px;
+    border: 2px solid #111111;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.howToMakeCurls__show-img-controls svg:first-child {
+    position: absolute;
+    left: 33%;
+    top: 25%;
+    width: 33px;
+    height: 38px;
+}
+
+.howToMakeCurls__show-img-controls svg:last-child {
+    display: none;
+    position: absolute;
+    left: 35%;
+    top: 27%;
+    width: 17.711914px;
+    height: 21.057617px;
+}
+
+.howToMakeCurls__show-img-controls,
+.howToMakeCurls__show-img-controls svg:first-child path,
+.howToMakeCurls__show-img-controls svg:last-child path {
+    transition: all .3s ease-in;
+}
+
+.howToMakeCurls__show-img-controls:active,
+.howToMakeCurls__show-img-controls:active svg:first-child path,
+.howToMakeCurls__show-img-controls:active svg:last-child path {
+    transition: all .1s;
+    border-color: #C5358C;
+    fill: #C5358C;
+}
+
+.howToMakeCurls__desc {
+    max-width: 670px;
+}
+
+.howToMakeCurls__desc-title {
+    font-family: "NAMU", "Arial", sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin: 88px 0 40px;
+}
+
+.howToMakeCurls__desc-text {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+/* ====================================Медиазапросы============================================== */
+
+@media(any-hover: hover) {
+
+    .howToMakeCurls__show-img-controls:hover,
+    .howToMakeCurls__show-img-controls:hover svg:first-child path,
+    .howToMakeCurls__show-img-controls:hover svg:last-child path {
+        transition: all .1s;
+        border-color: #C5358C;
+        fill: #C5358C;
+    }
+}
+
+@media (max-width: 1568px) {
+
+    .howToMakeCurls {
+        padding-top: 7.7806vw;
+    }
+
+    .howToMakeCurls__inner {
+        gap: 3.6352vw;
+    }
+
+    .howToMakeCurls__show-img-women {
+        width: 40.3061vw;
+        height: 43.1122vw;
+    }
+
+    .howToMakeCurls__show-img-controls {
+        top: 14.0306vw;
+        right: 0.1913vw;
+        width: 5.3571vw;
+        height: 5.3571vw;
+        border: 0.1276vw solid #111111;
+        border-radius: 50%;
+    }
+
+    .howToMakeCurls__show-img-controls svg:first-child {
+        left: 33%;
+        top: 25%;
+        width: 2.1046vw;
+        height: 2.4235vw;
+    }
+
+
+    .howToMakeCurls__show-img-controls svg:last-child {
+        width: 1.1296vw;
+        height: 1.3430vw;
+    }
+
+    .howToMakeCurls__desc {
+        max-width: 42.7296vw;
+    }
+
+    .howToMakeCurls__desc-title {
+        font-size: 2.6786vw;
+        font-weight: 900;
+        line-height: 1.1;
+        margin: 5.6122vw 0 2.5510vw;
+    }
+
+    .howToMakeCurls__desc-text {
+        font-size: 1.2755vw;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .howToMakeCurls {
+        padding-top: 3.4211vw;
+    }
+
+
+    .howToMakeCurls__inner {
+        gap: 2.5vw;
+    }
+
+    .howToMakeCurls__show-img-women {
+        width: 40.1316vw;
+        height: 43.0263vw;
+    }
+
+    .howToMakeCurls__show-img-controls {
+        top: 15.7895vw;
+        right: 1.5789vw;
+        width: 6.5789vw;
+        height: 6.5789vw;
+        border: 0.2632vw solid #111111;
+        border-radius: 50%;
+    }
+
+    .howToMakeCurls__show-img-controls svg {
+        left: 33%;
+        top: 25%;
+        width: 3.6842vw;
+        height: 3.4211vw;
+    }
+
+
+    .howToMakeCurls__show-img-controls svg:last-child {
+        width: 2.3305vw;
+        height: 2.7707vw;
+    }
+
+    .howToMakeCurls__desc {
+        max-width: 40vw;
+    }
+
+    .howToMakeCurls__desc-title {
+        font-size: 3.4211vw;
+        font-weight: 900;
+        line-height: 1;
+        margin: 4.4737vw 0 2.6316vw;
+    }
+
+    .howToMakeCurls__desc-text {
+        font-size: 1.5789vw;
+        font-weight: 400;
+        line-height: 1.3;
+    }
+}
+
+@media (max-width: 410px) {
+
+    .howToMakeCurls {
+        padding-top: 11.2195vw;
+    }
+
+
+    .howToMakeCurls__inner {
+        flex-direction: column-reverse;
+        gap: 7.3171vw;
+    }
+
+    .howToMakeCurls__show-img-women {
+        width: 77.3171vw;
+        height: 82.6829vw;
+    }
+
+    .howToMakeCurls__show-img-controls {
+        top: 10vw;
+        right: 11.4634vw;
+        width: 12.1951vw;
+        height: 12.1951vw;
+        border: 0.4878vw solid #111111;
+        border-radius: 50%;
+    }
+
+    .howToMakeCurls__show-img-controls svg {
+        left: 33%;
+        top: 25%;
+        width: 6.8293vw;
+        height: 6.3415vw;
+    }
+
+
+    .howToMakeCurls__show-img-controls svg:last-child {
+        width: 4.3200vw;
+        height: 5.1360vw;
+    }
+
+    .howToMakeCurls__desc {
+        max-width: 100%;
+    }
+
+    .howToMakeCurls__desc-title {
+        font-size: 5.8537vw;
+        font-weight: 900;
+        line-height: 1;
+        margin: 0;
+        margin-bottom: 4.8780vw;
+    }
+
+    .howToMakeCurls__desc-text {
+        font-size: 2.9268vw;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+}

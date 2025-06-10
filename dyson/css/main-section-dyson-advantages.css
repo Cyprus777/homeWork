@@ -1,0 +1,233 @@
+.dyson-advantages {
+    padding: 150px 0;
+    background: #f8f8f8;
+}
+
+.dyson-advantages__title {
+    font-family: "NAMU", "Arial", sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.19;
+    margin-bottom: 60px;
+}
+
+.dyson-advantages__list {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.dyson-advantages__item {
+    padding: 26px;
+    border-radius: 3px;
+    box-shadow: 0px 4px 41px 0px #0000000d;
+    background: #ffffff;
+
+    width: 440px;
+    min-height: 280px;
+}
+
+.dyson-advantages__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.dyson-advantages__desc-para {
+    text-align: center;
+}
+
+.dyson-advantages__desc-para-mobile {
+    display: none;
+}
+
+.dyson-advantages__desc-img {
+    margin-bottom: 15px;
+    width: 110px;
+    height: 110px;
+}
+
+.dyson-advantages__desc-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.dyson-advantages__desc-title {
+    font-family: "NAMU", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 13px;
+}
+
+.dyson-advantages__desc-text {
+    max-width: 314px;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3;
+    text-align: center;
+}
+
+/* ====================================Медиазапросы============================================== */
+
+@media (max-width:1568px) {
+    .dyson-advantages {
+        padding: 9.5663vw 0;
+    }
+
+    .dyson-advantages__title {
+        font-size: 2.6786vw;
+        font-weight: 900;
+        line-height: 1.19;
+        margin-bottom: 3.8265vw;
+    }
+
+    .dyson-advantages__list {
+        gap: 1.2755vw;
+    }
+
+    .dyson-advantages__item {
+        padding: 1.6582vw;
+        border-radius: 0.1913vw;
+        box-shadow: 0px 0.2551vw 2.6148vw 0px #0000000d;
+
+        width: 28.0612vw;
+        min-height: 17.8571vw;
+    }
+
+    .dyson-advantages__desc-img {
+        margin-bottom: 0.9566vw;
+        width: 7.0153vw;
+        height: 7.0153vw;
+    }
+
+    .dyson-advantages__desc-title {
+        font-size: 1.2755vw;
+        font-weight: 900;
+        line-height: 1.2;
+        margin-bottom: 0.8291vw;
+    }
+
+    .dyson-advantages__desc-text {
+        max-width: 20.0255vw;
+        font-size: 1.1480vw;
+        font-weight: 300;
+        line-height: 1.3;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .dyson-advantages {
+        padding: 7.8947vw 0 9.2105vw;
+    }
+
+    .dyson-advantages__title {
+        font-size: 3.4211vw;
+        font-weight: 900;
+        line-height: 1.19;
+        margin-bottom: 5.2632vw;
+    }
+
+    .dyson-advantages__list {
+        gap: 2.6316vw;
+    }
+
+    .dyson-advantages__item {
+        padding: 2.3684vw 2.2368vw;
+        border-radius: 0.3947vw;
+        box-shadow: 0px 0.5263vw 5.3947vw 0px #0000000d;
+
+        width: 25.7895vw;
+        min-height: 26.3158vw;
+    }
+
+    .dyson-advantages__desc-img {
+        margin-bottom: 1.4474vw;
+        width: 9.7368vw;
+        height: 9.7368vw;
+    }
+
+    .dyson-advantages__desc-title {
+        font-size: 1.8421vw;
+        font-weight: 900;
+        line-height: 1.214;
+        margin-bottom: 1.0526vw;
+    }
+
+    .dyson-advantages__desc-text {
+        max-width: 21.3158vw;
+        font-size: 1.5789vw;
+        font-weight: 300;
+        line-height: 1.3;
+    }
+}
+
+@media(max-width: 410px) {
+
+    .dyson-advantages {
+        padding: 11.2195vw 0;
+    }
+
+    .dyson-advantages__title {
+        font-size: 4.8780vw;
+        font-weight: 900;
+        line-height: 1.2;
+        margin-bottom: 7.3171vw;
+    }
+
+    .dyson-advantages__list {
+        flex-direction: column;
+        gap: 2.4390vw;
+    }
+
+    .dyson-advantages__item {
+        padding: 3.9024vw 3.9024vw 6.3415vw 8.0488vw;
+        border-radius: 0.7317vw;
+        box-shadow: 0px 0.9756vw 10vw 0px #0000000d;
+
+        width: 100%;
+        min-height: 7.3171vw;
+    }
+
+    .dyson-advantages__desc {
+        flex-direction: row;
+        gap: 10.4878vw;
+    }
+
+    .dyson-advantages__desc-img {
+        margin-bottom: 0;
+        width: 18.0488vw;
+        height: 18.0488vw;
+    }
+
+    .dyson-advantages__desc-para {
+        display: none;
+    }
+
+    .dyson-advantages__desc-para-mobile {
+        display: block;
+        align-self: flex-end;
+    }
+
+
+    .dyson-advantages__desc-title {
+        font-size: 3.1707vw;
+        font-weight: 900;
+        line-height: 1.231;
+        margin-bottom: 1.9512vw;
+    }
+
+    .dyson-advantages__desc-text {
+        max-width: 44.6341vw;
+        font-size: 2.9268vw;
+        font-weight: 300;
+        line-height: 1.3;
+        text-align: left;
+        margin-bottom: 0.9756vw;
+    }
+}
