@@ -1,0 +1,235 @@
+.discount {
+    background: #111111;
+    padding-top: 111px;
+    color: #FFFFFF;
+}
+
+.logo--position {
+    margin-bottom: 4px;
+    width: 123px;
+}
+
+.discount__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount__text {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.discount__period {
+    font-family: "NAMU", "Arial", sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 50px;
+    min-height: 119px;
+}
+
+.discount__period h2 {
+    text-transform: uppercase;
+    font-size: 64px;
+}
+
+.discount__period h2 span {
+    color: #4D57C8;
+}
+
+
+.discount__pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-right: 3px;
+}
+
+.discount-picture-1 {
+    position: relative;
+    bottom: -32.7px;
+    width: 187px;
+    height: 93px;
+}
+
+.discount-picture-1 img {
+    width: 100%;
+}
+
+.discount-picture-2 {
+    max-height: 331px;
+    width: 897px;
+    overflow: hidden;
+}
+
+.discount-picture-2 img {
+    width: 100%;
+}
+
+/* ====================================Медиазапросы============================================== */
+
+@media (max-width: 1568px) {
+    .discount {
+        padding-top: 7.0791vw;
+    }
+
+    .logo--position {
+        margin-bottom: 0.2551vw;
+        width: 7.8444vw;
+    }
+
+    .discount__text {
+        font-size: 1.2755vw;
+        font-weight: 300;
+        line-height: 1.4;
+        margin-bottom: 1.2755vw;
+    }
+
+    .discount__period {
+        font-size: 2.6786vw;
+        font-weight: 400;
+        line-height: 1.1;
+        margin-bottom: 3.1888vw;
+        min-height: 7.5893vw;
+    }
+
+    .discount__period h2 {
+        font-size: 4.0816vw;
+    }
+
+
+    .discount__pictures {
+        margin-right: 0.1913vw;
+    }
+
+    .discount-picture-1 {
+        bottom: -2.0855vw;
+        width: 11.9260vw;
+        height: 5.9311vw;
+    }
+
+    .discount-picture-2 {
+        max-height: 21.1097vw;
+        width: 57.2066vw;
+    }
+
+}
+
+@media (max-width: 760px) {
+
+    .discount {
+        padding-top: 5.2632vw;
+    }
+
+    .discount .logo {
+        width: 8.0263vw;
+        height: 3.0263vw;
+    }
+
+
+    .discount .logo--position {
+        margin-bottom: 0;
+    }
+
+    .discount__text {
+        font-size: 1.5789vw;
+        font-weight: 300;
+        line-height: 1.4;
+        margin-bottom: 1.3158vw;
+    }
+
+    .discount__period {
+        font-size: 3.4211vw;
+        font-weight: 400;
+        line-height: 1.1;
+        margin-bottom: 3.9474vw;
+        min-height: 9.3421vw;
+        width: 31.8421vw;
+    }
+
+    .discount__period h2 {
+        font-size: 4.7368vw;
+    }
+
+
+    .discount__pictures {
+        margin-right: 0;
+    }
+
+    .discount-picture-1 {
+        bottom: -2vw;
+        left: 39.5395vw;
+        width: 11.0526vw;
+        height: 5.5263vw;
+    }
+
+    .discount-picture-2 {
+        max-height: 19.8684vw;
+        width: 50.6579vw;
+    }
+}
+
+@media (max-width: 410px) {
+    .discount__inner {
+        flex-direction: column;
+        gap: 12.1951vw;
+    }
+
+    .discount {
+        padding-top: 11.2195vw;
+    }
+
+    .discount .logo {
+        width: 23.6585vw;
+        height: 10vw;
+    }
+
+
+    .discount .logo--position {
+        margin-bottom: 0;
+    }
+
+    .discount__text {
+        font-size: 2.9268vw;
+        font-weight: 300;
+        line-height: 1.4;
+        margin-bottom: 3.6585vw;
+    }
+
+    .discount__period {
+        font-size: 6.3415vw;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-bottom: 7.3171vw;
+        min-height: 18.5366vw;
+        width: 74.1463vw;
+    }
+
+    .discount__period h2 {
+        font-size: 8.2927vw;
+    }
+
+    .discount .more-detailed {
+        margin-bottom: 0;
+    }
+
+    .discount__pictures {
+        margin-right: 0;
+    }
+
+    .discount-picture-1 {
+        position: static;
+        width: 20.4878vw;
+        height: 10.2439vw;
+    }
+
+    .discount-picture-2 {
+        max-height: 35.8537vw;
+        width: 88.7805vw;
+        transform: translateX(-1.7073vw);
+
+    }
+}
