@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'NAMU Pro';
+    font-family: 'NAMU';
     src: local('NAMU Pro'), local('NAMU-Pro'),
         url('NAMU-Pro.woff2') format('woff2'),
         url('NAMU-Pro.woff') format('woff');
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: 'NAMU 1850';
+    font-family: 'NAMU';
     src: local('NAMU 1850'), local('NAMU-1850'),
         url('NAMU-1850.woff2') format('woff2'),
         url('NAMU-1850.woff') format('woff');
