@@ -1,0 +1,219 @@
+.exclusive-color {
+    padding-top: 47px;
+    background: #DEDEDE;
+}
+
+.exclusive-color__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exclusive-color__desc {
+    margin-top: 65px;
+}
+
+.exclusive-color__desc p:first-child {
+    font-family: "NAMU", "Arial", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.1923;
+    margin-bottom: 10px;
+}
+
+.exclusive-color__desc p:first-child+p {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 37px;
+}
+
+
+.exclusive-color__picture {
+    width: 617px;
+    height: 537px;
+}
+
+.exclusive-color__picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.exclusive-color__title {
+    font-family: "NAMU", "Arial", sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 60px;
+}
+
+.exclusive-color__title>span {
+    color: #4D57C8;
+}
+
+.exclusive-color__title>span:last-child {
+    color: #CD8885;
+}
+
+/* ====================================Медиазапросы============================================== */
+@media (max-width: 1568px) {
+    .exclusive-color {
+        padding-top: 2.9974vw;
+    }
+
+    .exclusive-color__desc {
+        margin-top: 4.1454vw;
+    }
+
+    .exclusive-color__desc p:first-child {
+        font-size: 1.6582vw;
+        font-weight: 400;
+        line-height: 1.1923;
+        margin-bottom: 0.6378vw;
+    }
+
+    .exclusive-color__desc p:first-child+p {
+        font-size: 1.2755vw;
+        font-weight: 300;
+        line-height: 1.4;
+        margin-bottom: 2.3597vw;
+    }
+
+    .exclusive-color__picture {
+        width: 39.3495vw;
+        height: 34.2474vw;
+    }
+
+
+    .exclusive-color__title {
+        font-size: 2.6786vw;
+        font-weight: 400;
+        line-height: 1.1;
+        margin-bottom: 3.8265vw;
+    }
+}
+
+@media(max-width: 760px) {
+    .exclusive-color {
+        padding-top: 5.7895vw;
+    }
+
+    .exclusive-color__desc {
+        margin-top: 2.1053vw;
+    }
+
+    .exclusive-color__desc p:first-child {
+        font-size: 1.8421vw;
+        font-weight: 400;
+        line-height: 1.214;
+        margin-bottom: 0.5263vw;
+    }
+
+    .exclusive-color__desc p:first-child+p {
+        font-size: 1.5789vw;
+        font-weight: 300;
+        line-height: 1.4;
+        margin-bottom: 1.9737vw;
+    }
+
+    .exclusive-color__picture {
+        width: 41.3158vw;
+        height: 35vw;
+    }
+
+
+    .exclusive-color__title {
+        font-size: 3.4211vw;
+        font-weight: 400;
+        line-height: 1;
+        margin-bottom: 5.1316vw;
+    }
+}
+
+@media(max-width: 575px) {
+    .exclusive-color__inner {
+        flex-direction: column;
+    }
+    .exclusive-color {
+        padding-top: 40px;
+    }
+
+    .exclusive-color__desc {
+        margin-top: 0;
+    }
+
+    .exclusive-color__desc p:first-child {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.214;
+        margin-bottom: 4px;
+    }
+
+    .exclusive-color__desc p:first-child+p {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.4;
+        margin-bottom: 15px;
+    }
+
+    .exclusive-color__picture {
+        transform: translateX(-20px);
+        width: 390px;
+        height: 313px;
+    }
+
+
+    .exclusive-color__title {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    .exclusive-color__title+button {
+       margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 410px) {
+    .exclusive-color__inner {
+        flex-direction: column;
+    }
+    .exclusive-color {
+        padding-top: 9.7561vw;
+    }
+
+    .exclusive-color__desc {
+        margin-top: 0;
+    }
+
+    .exclusive-color__desc p:first-child {
+        font-size: 3.4146vw;
+        font-weight: 400;
+        line-height: 1.214;
+        margin-bottom: 0.9756vw;
+    }
+
+    .exclusive-color__desc p:first-child+p {
+        font-size: 2.9268vw;
+        font-weight: 300;
+        line-height: 1.4;
+        margin-bottom: 3.6585vw;
+    }
+
+    .exclusive-color__picture {
+        transform: translateX(-4.8780vw);
+        width: 95.1220vw;
+        height: 76.3415vw;
+    }
+
+
+    .exclusive-color__title {
+        font-size: 5.8537vw;
+        font-weight: 400;
+        line-height: 1;
+        margin-bottom: 7.3171vw;
+    }
+    .exclusive-color__title+button {
+       margin-bottom: 4.8780vw;
+    }
+}

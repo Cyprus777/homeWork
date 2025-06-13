@@ -1,0 +1,175 @@
+.spec-offers-modal {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    max-height: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #1111115b;
+    transition: all 1.5s ease-in-out;
+    z-index: 10;
+}
+
+
+.spec-offers-modal__window {
+    max-width: 300px;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    background: #111111;
+}
+
+.spec-offers-modal__window-button {
+    position: relative;
+    top: -5px;
+    right: -237px;
+    width: 32px;
+    height: 32px;
+    transition: all .5s ease;
+    transform: rotate(45deg);
+}
+
+.spec-offers-modal__window-button--close.spec-offers-modal__window-button {
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+
+.spec-offers-modal__window-button--close.spec-offers-modal__window-button div {
+    border-color: #c5358c;
+}
+
+.spec-offers-modal__window-button div {
+    top: 43%;
+    position: absolute;
+    border: 2px solid #fff;
+    width: 100%;
+    transition: all .5s;
+}
+
+.spec-offers-modal__window-button div:last-child {
+    transform: rotate(90deg);
+}
+
+.spec-offers-modal__list {
+    max-height: 0;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-top: 5px;
+    gap: 10px;
+    transition: all .5s ease;
+}
+
+.spec-offers-modal__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+    font-family: "NAMU", "Arial", sans-serif;
+    font-size: 20px;
+    border-radius: 3px;
+    line-height: 1.2;
+    color: #fff;
+    transition: all .5s;
+}
+
+.spec-offers-modal__check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.spec-offers-modal__item .spec-offers-modal__check-inner {
+    max-height: 0;
+    max-width: 0;
+    overflow: hidden;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #c5358c;
+    transition: all .5s;
+}
+
+.spec-offers-modal__item .spec-offers-modal__check--active .spec-offers-modal__check-inner {
+    max-height: 100%;
+    max-width: 100%;
+    overflow: visible;
+}
+
+
+.spec-offers-modal__item:active {
+    border-radius: 3px;
+    background: #c5358c;
+    transition: all .2s;
+}
+
+.spec-offers-modal__link {
+    padding-bottom: 4px;
+    max-width: 200px;
+    vertical-align: center;
+}
+
+@media(any-hover: hover) {
+    .spec-offers-modal__item:hover {
+        background: rgb(197, 53, 140);
+        transition: all .2s;
+    }
+}
+@media(max-width: 410px) {
+
+.spec-offers-modal__window {
+    max-width: 73.1707vw;
+    padding: 4.8780vw;
+}
+
+.spec-offers-modal__window-button {
+    top: -1.2195vw;
+    right: -57.8049vw;
+    width: 7.8049vw;
+    height: 7.8049vw;
+}
+
+.spec-offers-modal__window-button div {
+    border: 0.4878vw solid #fff;
+}
+
+.spec-offers-modal__list {
+    margin-top: 1.2195vw;
+    gap: 2.4390vw;
+}
+
+.spec-offers-modal__item {
+    gap: 3.6585vw;
+    padding: 1.2195vw;
+    font-size: 4.8780vw;
+    border-radius: 0.7317vw;
+}
+
+.spec-offers-modal__check {
+    width: 4.8780vw;
+    height: 4.8780vw;
+}
+
+.spec-offers-modal__item .spec-offers-modal__check-inner {
+    width: 3.6585vw;
+    height: 3.6585vw;
+}
+
+
+.spec-offers-modal__item:active {
+    border-radius: 0.7317vw;
+}
+
+.spec-offers-modal__link {
+    padding-bottom: 0.9756vw;
+    max-width: 48.7805vw;
+}
+}

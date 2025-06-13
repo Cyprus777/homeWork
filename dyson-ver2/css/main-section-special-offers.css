@@ -1,0 +1,200 @@
+.special-offers {
+    padding: 150px 0;
+    background: #F8F8F8;
+}
+
+.special-offers__title {
+    font-family: "NAMU", "Arial", sans-serif;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 50px;
+}
+
+.special-offers__title span {
+    color: #C5358C;
+}
+
+.filter-by-name__flex a {
+    display: block;
+    color: #c5358c;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.388;
+    border-bottom: 1px solid #c5358c;
+    background: transparent;
+    margin-left: auto;
+}
+
+.filter-by-name__flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.filter-by-name__flex button {
+    padding: 6.5px 20px;
+    outline: 1px solid #111111;
+    border-radius: 31px;
+    background: transparent;
+
+    color: #111111;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.389;
+    transition: all .5s;
+}
+
+.filter-by-name__flex button:active {
+    outline-color: #C5358C;
+    color: #C5358C;
+    transition: all .2s;
+}
+
+
+/* ====================================Медиазапросы============================================== */
+
+@media(any-hover: hover) {
+    .filter-by-name__flex button:hover {
+        outline-color: #C5358C;
+        color: #C5358C;
+        transition: all .2s;
+    }
+}
+
+@media (max-width: 1568px) {
+    .special-offers {
+        padding: 9.5663vw 0;
+    }
+
+    .special-offers__title {
+        font-size: 2.9337vw;
+        font-weight: 900;
+        line-height: 1.1;
+        margin-bottom: 3.1888vw;
+    }
+
+    .filter-by-name__flex a {
+        font-size: 1.1480vw;
+        font-weight: 400;
+        line-height: 1.388;
+        border-bottom: 0.0638vw solid #c5358c;
+    }
+
+    .filter-by-name__flex {
+        gap: 1.2755vw;
+    }
+
+    .filter-by-name__flex button {
+        padding: 0.4145vw 1.2755vw;
+        outline: 0.0638vw solid #111111;
+        border-radius: 1.9770vw;
+        font-size: 1.1480vw;
+        font-weight: 400;
+        line-height: 1.389;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .special-offers {
+        padding: 7.8947vw 0 9.2105vw;
+    }
+
+    .special-offers__title {
+        font-size: 3.4211vw;
+        font-weight: 900;
+        line-height: 1.1;
+        margin-bottom: 3.2895vw;
+    }
+
+    .filter-by-name__flex a {
+        font-size: 1.5789vw;
+        font-weight: 400;
+        line-height: 1.333;
+        border-bottom: 0.1316vw solid #c5358c;
+    }
+
+    .filter-by-name__flex {
+        gap: 1.0526vw;
+    }
+
+    .filter-by-name__flex button {
+        padding: 0.7895vw 1.5855vw;
+        outline: 0.1316vw solid #111111;
+        border-radius: 4.0789vw;
+        font-size: 1.5789vw;
+        font-weight: 400;
+        line-height: 1.333;
+    }
+}
+
+@media(max-width: 575px) {
+    .special-offers {
+        padding: 30px 0 46px;
+    }
+
+    .special-offers__title {
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 1.1;
+        margin-bottom: 20px;
+    }
+
+    .filter-by-name__flex a {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.333;
+        border-bottom: 1px solid #c5358c;
+    }
+
+    .filter-by-name__flex {
+        gap: 10px;
+    }
+
+    .filter-by-name__flex button {
+        padding: 6px 12.05px;
+        outline: 1px solid #111111;
+        border-radius: 31px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.333;
+    }
+}
+
+@media (max-width: 410px) {
+
+    .special-offers {
+        padding: 7.3171vw 0 11.2195vw;
+    }
+
+    .special-offers__title {
+        font-size: 4.8780vw;
+        font-weight: 900;
+        line-height: 1.1;
+        margin-bottom: 4.8780vw;
+    }
+
+    .filter-by-name__flex a {
+        font-size: 2.9268vw;
+        font-weight: 400;
+        line-height: 1.333;
+        border-bottom: 0.2439vw solid #c5358c;
+    }
+
+    .filter-by-name__flex {
+        gap: 2.4390vw;
+    }
+
+    .filter-by-name__flex button {
+        padding: 1.4634vw 2.9390vw;
+        outline: 0.2439vw solid #111111;
+        border-radius: 7.5610vw;
+        font-size: 2.9268vw;
+        font-weight: 400;
+        line-height: 1.333;
+    }
+}

@@ -1,0 +1,118 @@
+.header-modal {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    max-height: 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #1111115b;
+    transition: all 1.5s ease-in-out;
+}
+
+
+.header-modal__window {
+    max-width: 250px;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    background: #111111;
+}
+
+.header-modal__window-button {
+    position: relative;
+    top: -5px;
+    right: -180px;
+    width: 32px;
+    height: 32px;
+    transition: all .5s ease;
+    transform: rotate(45deg);
+}
+
+.header-modal__window-button--close.header-modal__window-button {
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+
+.header-modal__window-button--close.header-modal__window-button div {
+    border-color: #c5358c;
+}
+
+.header-modal__window-button div {
+    top: 43%;
+    position: absolute;
+    border: 2px solid #fff;
+    width: 100%;
+    transition: all .5s;
+}
+
+.header-modal__window-button div:last-child {
+    transform: rotate(90deg);
+}
+
+.header-modal__list {
+    max-height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 10px;
+    transition: all .5s ease;
+}
+
+.header-modal__item {
+    padding: 5px;
+    font-family: "NAMU", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.header-modal__item:active {
+    border-radius: 3px;
+    background: #c5358c;
+    transition: all .2s;
+}
+
+@media(any-hover: hover) {
+    .header-modal__item:hover {
+        background: #c5358c;
+        transition: all .2s;
+    }
+
+}
+
+@media(max-width: 410px) {
+
+.header-modal__window {
+    max-width: 60.9756vw;
+    padding: 4.8780vw;
+}
+
+.header-modal__window-button {
+    top: -1.2195vw;
+    right: -43.9024vw;
+    width: 7.8049vw;
+    height: 7.8049vw;
+}
+
+.header-modal__window-button div {
+    border: 0.4878vw solid #fff;
+}
+
+.header-modal__list {
+    margin-top: 1.2195vw;
+    gap: 2.4390vw;
+}
+
+.header-modal__item {
+    padding: 1.2195vw;
+    font-size: 4.8780vw;
+    border-radius: 0.7317vw;
+}
+}

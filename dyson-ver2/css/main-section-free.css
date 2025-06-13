@@ -1,0 +1,29 @@
+.free-section {
+    background: #111111;
+    min-height: 794px;
+}
+
+/* ====================================Медиазапросы============================================== */
+@media (max-width: 1568px) {
+    .free-section {
+        min-height: 50.6378vw;
+    }
+}
+
+@media (max-width: 760px) {
+    .free-section {
+        min-height: 50.3947vw;
+    }
+}
+
+@media(max-width: 575px) {
+    .free-section {
+        min-height: 492px;
+    }
+}
+
+@media (max-width: 410px) {
+    .free-section {
+        min-height: 120vw;
+    }
+}
