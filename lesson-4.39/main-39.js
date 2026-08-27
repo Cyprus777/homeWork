@@ -15,10 +15,10 @@ console.log(person);
 // Создайте функцию isEmpty, которая проверяет является ли переданный объект пустым. Если объект пуст - верните true, в противном случае false.
 const isEmpty = (obj) => {
 	for (const key in obj) {
-		if (key) return true;
+		if (key) return false;
 	}
 
-	return false;
+	return true;
 };
 
 console.log(isEmpty(person));
